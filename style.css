@@ -1,0 +1,205 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Literata', serif;
+}
+
+section > *,
+body > header > nav {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+
+body > header * {
+    font-family: inherit;
+    padding: 0;
+}
+
+body > header {
+    background-color: black;
+    position: sticky;
+    top: 0;
+    z-index: 5;
+}
+
+p {
+    font-size: 30px;
+    padding: 30px 0;
+    text-align: justify;
+}
+
+h1 {
+    font-size: 50px;
+    margin: 35px auto;
+}
+
+h2 {
+    font-size: 40px;
+    margin: 35px auto;
+}
+
+.navig_t,
+.navig{
+    height: 80px;
+    margin: auto;
+    padding: 25px;
+}
+.navig_t > ul,
+.navig > ul{
+    display: flex;
+    list-style-type: none;
+    width: 320px;
+}
+
+.navig_t > ul > li {
+    margin-right: 5%;
+    width: 120px;
+    font-size: 20px;
+}
+
+.navig > ul > li {
+    margin-right: 5%;
+    width: 100px;
+    font-size: 20px;
+}
+.navig_t > ul > li > a,
+.navig > ul > li > a {
+    color: white;
+    margin-right: 10%;
+    text-decoration: none;
+}
+
+.img_header {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+}
+
+.portfolio {
+    background: url(assets/background.jpg);
+}
+
+.portfolio_o {
+    
+    height: 700px;
+    display: flex
+}
+
+.info {
+    position: absolute;
+    z-index: 1;
+    padding: 200px;
+    color: white;
+    text-align: center;
+    height: 700px;
+    max-width: 1440px;
+    margin: auto;
+}
+
+
+.info > p {
+    max-width: 70%;
+    margin: auto;
+    padding: 40px;
+}
+
+.info > a {
+    text-decoration: none;
+    color: white;
+    list-style-type: none;
+    border: solid;
+    border-radius: 7px;
+    padding: 5px;
+    font-size: 23px;
+}
+
+.img_bac{
+    display: flex;
+    height: auto;
+    overflow: hidden;
+}
+
+.background_img {
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+}
+
+.overlay_img {
+    position: absolute;
+    height: auto;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.button_list {
+    text-decoration: none;
+    color: blue;
+    list-style-type: none;
+    border: solid;
+    border-radius: 7px;
+    padding: 5px;
+    font-size: 35px;
+    margin: auto;
+}
+
+footer {
+    background-color: black;
+}
+
+footer > div{
+    color: white;
+    max-width: 1440px;
+    width: 100%;
+    margin: auto;
+}
+
+
+.skills {
+    text-align: justify;
+
+    text-decoration: none;
+    list-style-type: disc;
+    font-size: 30px;
+    padding: 15px 55px;
+}
+
+.button_all {
+    margin: 26px auto;
+}
+
+table {
+    border: 2px solid;
+    width: 50%;
+    border-collapse: collapse;
+    
+}
+
+tr{
+    background-color: rgb(156, 197, 224);
+}
+
+td {
+    text-align: left;
+    padding: 10px;
+    font-size: 25px;
+    border: 3px solid rgb(0, 0, 0);
+}
+th {
+    text-align: center;
+    padding: 10px;
+    width: 20px;
+    font-size: 25px;
+    border: 3px solid rgb(0, 0, 0);
+    background-color: black;
+    color: white;
+}
+
+.end_s {
+    margin-bottom: 50px;
+}
